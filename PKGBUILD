@@ -1,15 +1,15 @@
-# Maintainer: Bazizi Walid
+# Maintainer: Bazizi Walid <walidbaz@users.noreply.github.com>
 pkgname=bac-countdown
-pkgver=1.0.0
+pkgver=1.0
 pkgrel=1
-pkgdesc="Terminal live countdown to the BAC exam"
-arch=('x86_64')
-url="https://eddirasa.com/العد-التنازلي-لموعد-البكالوريا/"
+pkgdesc="Live BAC exam countdown script"
+arch=('any')
+url="https://github.com/walidbaz/bac-countdown"
 license=('MIT')
 depends=('python' 'python-requests' 'python-beautifulsoup4')
-source=("bac_date.py")
-sha256sums=('SKIP')
+source=("https://github.com/walidbaz/bac-countdown/archive/refs/tags/v${pkgver}.tar.gz")
+sha256sums=('SKIP') # You can calculate later with sha256sum
 
 package() {
-    install -Dm755 "$srcdir/bac_date.py" "$pkgdir/usr/bin/bac-countdown"
-}
+    mkdir -p "$pkgdir/usr/bin"
+    install -Dm755 "bac_date.py" "$pkgdir/usr/bin/bac-countdown"
