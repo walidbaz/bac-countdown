@@ -9,7 +9,7 @@ pkgbase = bac-countdown
 	depends = python-requests
 	depends = python-beautifulsoup4
 	depends = python-rich
-	source = https://github.com/walidbaz/bac-countdown/archive/refs/tags/v1.1.tar.gz
+	source = bac-countdown-1.1.tar.gz::https://github.com/walidbaz/bac-countdown/archive/refs/tags/v1.1.tar.gz
 	sha256sums = SKIP
 
 pkgname = bac-countdown
