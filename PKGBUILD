@@ -14,6 +14,6 @@ package() {
     # Automatically detect the extracted folder
     extracted_folder=$(find "$srcdir" -mindepth 1 -maxdepth 1 -type d)
     cd "$extracted_folder"
+
     install -Dm755 bac_date.py "$pkgdir/usr/bin/bac-countdown"
 }
-
