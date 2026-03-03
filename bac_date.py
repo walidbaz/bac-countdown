@@ -13,7 +13,7 @@ from rich.text import Text
 from rich.console import Group, Console
 
 # URL of the BAC countdown page
-URL = "https://eddirasa.com/العد-التنازلي-لموعد-البكالوريا/"
+URL = "https://www.bac-feljib.com/p/bac-exam-countdown.html"
 
 arabic_to_english_month = {
     "جانفي": "January", "فيفري": "February", "مارس": "March",
