@@ -10,6 +10,6 @@ pkgbase = bac-countdown
 	depends = python-beautifulsoup4
 	depends = python-rich
 	source = bac-countdown-1.2.tar.gz::https://github.com/walidbaz/bac-countdown/archive/refs/tags/v1.2.tar.gz
-	sha256sums = SKIP
+	sha256sums = b5baf8f0976e8f31e60b5b27146378a3409e2993338c1fa4d10bbdce4e36b3ea
 
 pkgname = bac-countdown
