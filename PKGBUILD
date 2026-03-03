@@ -8,7 +8,7 @@ url="https://github.com/walidbaz/bac-countdown"
 license=('MIT')
 depends=('python' 'python-requests' 'python-beautifulsoup4' 'python-rich')
 
-# Use the GitHub v1.1 tag
+# Use the GitHub v1. tag
 source=("$pkgname-$pkgver.tar.gz::https://github.com/walidbaz/bac-countdown/archive/refs/tags/v$pkgver.tar.gz")
 sha256sums=('b5baf8f0976e8f31e60b5b27146378a3409e2993338c1fa4d10bbdce4e36b3ea')
 
