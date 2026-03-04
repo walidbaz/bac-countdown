@@ -1,6 +1,6 @@
 # Maintainer: Bazizi Walid <walidbaz@users.noreply.github.com>
 pkgname=bac-countdown
-pkgver=1.1
+pkgver=1.2
 pkgrel=1
 pkgdesc="Live BAC exam countdown script"
 arch=('any')
