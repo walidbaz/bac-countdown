@@ -11,7 +11,7 @@ import time
 import arabic_reshaper
 from bidi.algorithm import get_display
 
-URL = https://www.bac-story.com/tools/countdown"
+URL = "https://www.bac-story.com/tools/countdown"
 
 arabic_to_english_month = {
     "جانفي": "January", "فيفري": "February", "مارس": "March",
