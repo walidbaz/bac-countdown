@@ -11,7 +11,7 @@ import time
 import arabic_reshaper
 from bidi.algorithm import get_display
 
-URL = "https://www.bac-feljib.com/p/bac-exam-countdown.html"
+URL = "https://eddirasa.com/%D8%A7%D9%84%D8%B9%D8%AF-%D8%A7%D9%84%D8%AA%D9%86%D8%A7%D8%B2%D9%84%D9%8A-%D9%84%D9%85%D9%88%D8%B9%D8%AF-%D8%A7%D9%84%D8%A8%D9%83%D8%A7%D9%84%D9%88%D8%B1%D9%8A%D8%A7/"
 
 arabic_to_english_month = {
     "جانفي": "January", "فيفري": "February", "مارس": "March",
